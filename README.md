@@ -44,20 +44,24 @@ streamlit run app.py
 
 ## Usage
 Enter a Review: Type your movie review into the text area provided.
-Predict: Click the "Predict" button to analyze the review. The application will display:
-The sentiment of the review (Positive or Negative).
-The sentiment score (probability of the review being positive).
-The predicted emotion based on the review.
-The predicted rating (1-5) based on the sentiment score.
+
+Predict: Click the "Predict" button to analyze the review. 
+
+The application will display: 
+- The sentiment of the review (Positive or Negative).
+- The sentiment score (probability of the review being positive).
+- The predicted emotion based on the review.
+- The predicted rating (1-5) based on the sentiment score.
+
 Review History: The history of all reviews analyzed during the current session will be displayed below the prediction results.
 
 ## Notes
-Ensure that your environment has internet access to download the Hugging Face model the first time you run the application.
-If the application doesn't work as expected, check the console output for any error messages.
+- Ensure that your environment has internet access to download the Hugging Face model the first time you run the application.
+- If the application doesn't work as expected, check the console output for any error messages.
+
 Troubleshooting
 Model Loading Error: If you encounter issues with loading the Hugging Face model, ensure that the model identifier is correct and you have internet access.
 Missing Files: Ensure that sentiment_model.pkl and tfidf_vectorizer.pkl are located in the same directory as app.py.
-
 
 ## Dataset 
 link -->  https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews/input
